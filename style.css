@@ -1,0 +1,11 @@
+#introducao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#icon{
+    border-radius: 100%;
+    margin-bottom: 1.5rem;
+}
