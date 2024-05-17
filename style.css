@@ -1,3 +1,25 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  background-color: #fffffff2;
+  color: #1d1f21; 
+  font-size: 20px;
+}
+
+h1{
+  font-family:"Playfair Display", serif;
+  font-size: 50px;
+}
+
+h4{
+  font-family:"Playfair Display", serif;
+  font-size: 35px;
+}
+
+.navbar-brand{
+  font-family:"Playfair Display", serif;
+  font-size: 40px;
+}
+
 #introducao{
     display: flex;
     align-items: center;
@@ -39,14 +61,14 @@
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
-    background-color: #bbb;
-    color: black;
+    background-color: #1d1f21;
+    color: #fffffff2;
   }
   
   /* Style the back side */
   .flip-card-back {
-    background-color: rgb(0, 0, 0);
-    color: white;
+    background-color: #1d1f21;
+    color: #fffffff2;
     transform: rotateY(180deg);
   }
   
