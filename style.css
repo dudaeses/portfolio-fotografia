@@ -14,7 +14,25 @@ h4 {
   font-family: "Playfair Display", serif;
   font-size: 35px;
 }
-
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+.navbar.dark-mode {
+  background-color: #333;
+}
+.navbar.dark-mode .navbar-brand,
+.navbar.dark-mode .nav-link {
+  color: #e0e0e0;
+}
+.flip-card.dark-mode .flip-card-back {
+  background-color: #333;
+  color: #e0e0e0;
+}
+footer.dark-mode {
+  background-color: #333;
+  color: #e0e0e0;
+}
 .navbar-brand {
   font-family: "Playfair Display", serif;
   font-size: 40px;
@@ -82,7 +100,6 @@ h4 {
   flex-direction: column;
   padding: 20px;
   box-sizing: border-box;
-  box-shadow: 6px 2px 10px #878686;
   border-radius: 11px;
 }
 
@@ -95,7 +112,6 @@ h4 {
   height: 100%;
   max-height: 370px;
   object-fit: cover; /* Mantém a proporção sem distorção */
-  box-shadow: 6px 2px 10px #878686;
   border-radius: 11px;
 }
 
