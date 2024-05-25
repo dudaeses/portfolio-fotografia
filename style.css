@@ -13,6 +13,7 @@ h1 {
 h4 {
   font-family: "Playfair Display", serif;
   font-size: 35px;
+  text-decoration: underline;
 }
 
 .navbar-brand {
@@ -30,6 +31,7 @@ h4 {
 #icon {
   border-radius: 100%;
   margin-bottom: 1.5rem;
+  box-shadow: 6px 2px 2px #878686;
 }
 
 .grid-image {
@@ -98,4 +100,8 @@ h4 {
   padding-top: 20px;
   position: relative;
   z-index: 1; /* Certifica-se que está acima do conteúdo anterior */
+}
+
+#myButton{
+  margin-top: 18px;
 }
