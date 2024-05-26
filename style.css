@@ -54,7 +54,7 @@ footer.dark-mode {
 .grid-image {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px; /* Espaçamento entre as imagens */
+  gap: 25px; /* Espaçamento entre as imagens */
   margin-bottom: 20px;
 }
 
@@ -100,7 +100,6 @@ footer.dark-mode {
   flex-direction: column;
   padding: 20px;
   box-sizing: border-box;
-  border-radius: 11px;
 }
 
 .flip-card.clicked .flip-card-inner {
@@ -112,7 +111,6 @@ footer.dark-mode {
   height: 100%;
   max-height: 370px;
   object-fit: cover; /* Mantém a proporção sem distorção */
-  border-radius: 11px;
 }
 
 #contato {
@@ -128,8 +126,26 @@ footer.dark-mode {
   border: 2px solid black;
 }
 
+#myButton:hover{
+  text-decoration: underline;
+
+}
+
 .form-control {
-  border-radius: 17px;
-  border: 2px solid #999898;
-  box-shadow: 1px 1px 3px #b9b8b8;
+  border-radius: 5px;
+  border: 1px solid #000000;
+}
+
+#txtContato{
+  text-align: justify;
+  margin-right: 20px;
+}
+
+b{
+  font-family: "Playfair Display", serif;
+}
+
+a.nav-link:hover{
+  font-size: 21px;
+  font-weight: 450;
 }
