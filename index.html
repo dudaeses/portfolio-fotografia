@@ -125,18 +125,68 @@
 
         <div id="contato" class="my-5">
           <h4>Contato</h4>
-          <p>Para entrar em contato, por favor envie um email para contato@liviacarvalhoazevedo.com ou ligue para (11) 1234-5678.</p>
+          <div class="row">
+            <div class="col-lg-5 col-md-12">
+              <p>Para entrar em contato, por favor envie um email ou ligue:
+                <ul>
+                  <li>contato@liviacarvalhoazevedo.com</li>
+                  <li>(11) 1234-5678</li>
+                </ul>
+              </p>
+            </div>
+            <div class="col-lg-7 col-md-12">
+              <form>
+                <div class="mb-3">
+                  <label for="nameInput" class="form-label">Insira seu Nome</label>
+                  <input type="text" id="nameInput" class="form-control" placeholder="Digite seu Nome">
+                </div>
+                <div class="mb-3">
+                  <label for="emailInput" class="form-label">Insira seu E-mail</label>
+                  <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp"
+                    placeholder="Digite seu E-mail">
+                </div>
+                <div class="form-group">
+                  <label for="commentInput">Insira seu Comentário</label>
+                  <textarea class="form-control" id="commentInput" rows="3"
+                    placeholder="Digite seu Comentário"></textarea>
+                </div>
+                <button id="myButton" type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+            </div>
+          </div>
         </div>
-      </div>
     </main>
 
     <footer class="text-center py-4">
       <p>&copy; 2024 Livia Carvalho Azevedo. Todos os direitos reservados.</p>
     </footer>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+
+  <script>
+    // Toggle dark mode
+    const themeToggleButton = document.getElementById('light-mode');
+    const body = document.body;
+    const navbar = document.querySelector('.navbar');
+    const flipCards = document.querySelectorAll('.flip-card');
+    const footer = document.querySelector('footer');
+
+    themeToggleButton.addEventListener('click', () => {
+      body.classList.toggle('dark-mode');
+      navbar.classList.toggle('dark-mode');
+      flipCards.forEach(card => card.classList.toggle('dark-mode'));
+      footer.classList.toggle('dark-mode');
+
+      // Toggle button image
+      const imgSrc = body.classList.contains('dark-mode') ? 'dark-mode.png' : 'light-mode.png';
+      themeToggleButton.innerHTML = `<img src="${imgSrc}" style="display: flex;width: 30px;">`;
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz4fnFO9gybBogGzv4EcEF96UoTVQQiq2GOrM7Bztb1U8eTgtG0KSY3Mr1" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-qnb55N9V3GblwBbbDeXZ6nbtvZRAI6vB3rrUReemsRbdb6RxCxMkX1zrIBMs9ZfQ" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
