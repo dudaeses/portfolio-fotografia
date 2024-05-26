@@ -5,23 +5,14 @@ body {
   font-size: 20px;
 }
 
-a.nav-link{
-  color: #1d1f21;
-}
-
-h1{
-  font-family:"Playfair Display", serif;
+h1 {
+  font-family: "Playfair Display", serif;
   font-size: 50px;
 }
 
 h4 {
   font-family: "Playfair Display", serif;
   font-size: 35px;
-  margin-bottom: 1rem;
-}
-
-#fotografias{
-  margin-bottom: 1.5rem;
 }
 body.dark-mode {
   background-color: #121212;
@@ -47,11 +38,11 @@ footer.dark-mode {
   font-size: 40px;
 }
 
-#inicio{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+#introducao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 #icon {
