@@ -225,18 +225,20 @@
     const navbar = document.querySelector('.navbar');
     const flipCards = document.querySelectorAll('.flip-card');
     const footer = document.querySelector('footer');
-
+    const formControls = document.querySelectorAll('.form-control');
+  
     themeToggleButton.addEventListener('click', () => {
       body.classList.toggle('dark-mode');
       navbar.classList.toggle('dark-mode');
       flipCards.forEach(card => card.classList.toggle('dark-mode'));
       footer.classList.toggle('dark-mode');
-
+      formControls.forEach(input => input.classList.toggle('dark-mode'));
+  
       // Toggle button image
       const imgSrc = body.classList.contains('dark-mode') ? 'dark-mode.png' : 'light-mode.png';
       themeToggleButton.innerHTML = `<img src="${imgSrc}" style="display: flex;width: 30px;">`;
     });
-  </script>
+    </script>
   <!-- Scripts do Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz4fnFO9gybBogGz0G7yJ9dPkFMH+z1jK/H+0KsFKq/9i/X+WLDcURbV/4"
