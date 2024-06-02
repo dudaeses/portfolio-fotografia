@@ -1,3 +1,4 @@
+/* Estilos gerais */
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #fffffff2;
@@ -14,30 +15,81 @@ h4 {
   font-family: "Playfair Display", serif;
   font-size: 35px;
 }
+
+/* Modo escuro */
 body.dark-mode {
-  background-color: #121212;
+  background-color: #181A1B;
   color: #e0e0e0;
 }
-.navbar.dark-mode {
-  background-color: #333;
+
+.form-control.dark-mode {
+  border-radius: 5px;
+  border: 1px solid #e4e4e4;
+  background-color: #000000;
+  color: #e0e0e0;
 }
+
+.form-control.dark-mode::placeholder {
+  color: #e0e0e0;
+}
+
+.navbar.dark-mode {
+  background-color: #1B1E1F;
+}
+
 .navbar.dark-mode .navbar-brand,
 .navbar.dark-mode .nav-link {
-  color: #e0e0e0;
+  color: #ffffff;
 }
+
 .flip-card.dark-mode .flip-card-back {
   background-color: #333;
   color: #e0e0e0;
 }
+
 footer.dark-mode {
-  background-color: #333;
+  background-color: #181A1B;
   color: #e0e0e0;
 }
+
+/* Estilo da navbar */
+.navbar {
+  background-color: #f8f9fa;
+}
+
+.navbar.dark-mode {
+  background-color: #1B1E1F;
+}
+
 .navbar-brand {
   font-family: "Playfair Display", serif;
   font-size: 40px;
+  color: #000; /* Cor padrão da navbar */
 }
 
+.navbar-dark-mode .navbar-brand {
+  color: #ffffff; /* Cor da marca da navbar em modo escuro */
+}
+
+.navbar-nav {
+  text-align: center;
+  width: 100%;
+}
+
+.navbar-nav .nav-item {
+  margin: 0.5rem 0;
+}
+
+/* Navbar em modo mobile */
+@media (max-width: 992px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Estilos da introdução */
 #introducao {
   display: flex;
   align-items: center;
@@ -51,6 +103,7 @@ footer.dark-mode {
   box-shadow: 6px 2px 10px #878686;
 }
 
+/* Grid de imagens */
 .grid-image {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -58,6 +111,7 @@ footer.dark-mode {
   margin-bottom: 20px;
 }
 
+/* Estilos das flip-cards */
 .flip-card {
   background-color: transparent;
   border: 1px solid #f1f1f1;
@@ -113,6 +167,7 @@ footer.dark-mode {
   object-fit: cover; /* Mantém a proporção sem distorção */
 }
 
+/* Estilos da seção de contato */
 #contato {
   clear: both; /* Garante que a seção de contato fique abaixo das imagens */
   padding-top: 20px;
@@ -120,32 +175,54 @@ footer.dark-mode {
   z-index: 1; /* Certifica-se que está acima do conteúdo anterior */
 }
 
-#myButton{
+/* Estilos do botão */
+#myButton {
   margin-top: 18px;
   background-color: black;
   border: 2px solid black;
 }
 
-#myButton:hover{
+#myButton:hover {
   text-decoration: underline;
-
 }
 
+/* Estilos do formulário */
 .form-control {
   border-radius: 5px;
   border: 1px solid #000000;
 }
 
-#txtContato{
+.form-control.dark-mode {
+  background-color: #181A1B;
+  border-color: #e0e0e0;
+  color: #e0e0e0;
+}
+
+.form-control.dark-mode::placeholder {
+  color: #e0e0e0;
+}
+
+#txtContato {
   text-align: justify;
   margin-right: 20px;
 }
 
-b{
+b {
   font-family: "Playfair Display", serif;
 }
 
-a.nav-link:hover{
+/* Estilos do link na navbar */
+a.nav-link:hover {
   font-size: 21px;
   font-weight: 450;
+}
+
+/* Estilos do botão de modo claro */
+button#light-mode {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: none !important;
+  --bs-btn-border-color: none !important;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: none !important;
+  --bs-btn-hover-border-color: none !important;
 }
