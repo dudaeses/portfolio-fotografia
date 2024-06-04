@@ -34,7 +34,7 @@ body.dark-mode {
 }
 
 .navbar.dark-mode {
-  background-color: #1B1E1F;
+  background-color: #1B1E1F !important;
 }
 
 .navbar.dark-mode .navbar-brand,
