@@ -222,7 +222,7 @@
     // Toggle dark mode
     const themeToggleButton = document.getElementById('light-mode');
     const body = document.body;
-    const navbar = document.querySelector('.navbar');
+    const navbar = document.getElementById('navbar-exemplo2');
     const flipCards = document.querySelectorAll('.flip-card');
     const footer = document.querySelector('footer');
     const formControls = document.querySelectorAll('.form-control');
@@ -238,7 +238,8 @@
       const imgSrc = body.classList.contains('dark-mode') ? 'dark-mode.png' : 'light-mode.png';
       themeToggleButton.innerHTML = `<img src="${imgSrc}" style="display: flex;width: 30px;">`;
     });
-    </script>
+  </script>
+  
   <!-- Scripts do Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz4fnFO9gybBogGz0G7yJ9dPkFMH+z1jK/H+0KsFKq/9i/X+WLDcURbV/4"
