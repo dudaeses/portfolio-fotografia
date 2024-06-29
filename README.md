@@ -7,4 +7,4 @@ O site foi desenvolvido a partir de uma personalidade fictícia, criada para ilu
 
 Todas as imagens utilizadas foram retiradas do banco de imagens gratuitas Pixabay.
 
-## UNIESI Centro Universitário de Itapira
+# UNIESI Centro Universitário de Itapira - Ciência da Computação (2024)
