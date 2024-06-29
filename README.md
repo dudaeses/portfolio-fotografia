@@ -1,29 +1,8 @@
 
-## Projeto 1° Semestre ~ Uniesi Ciências da Computação
+## Avaliação Semestral de Web Responsiva: Portfólio de Fotografia - UNIESI Centro Universitário de Itapira
 
-Este projeto foi desenvolvido na máteria de programação web, o objetivo de atender as seguintes necessidades:
-
-* Ser responsivo;
-* Utilizar o bootstrap;
-* Ter acessibilidade;
-* Usar o JavaScript;
-
-
-Atendendo os objetivos proposto pelo professor, pensamos em criar um site de fotos inspirado no em site conhecido, chamado VSCO
-
-#### VSCO
-
-*VSCO: Página principal*
-
-![alt text](image.png)
-
-Utilizamos os sites [site para gerar nome] para criar o nome do usuário, e o [site do banco de fotos] para usar as imagens gratuitas e publicas para todos para criar a nossa "personagem" que é uma pessoa real
-
-#### O site [site para gerar nome]
-
-foto do site
-
-
-#### O site [site do banco de fotos]
+O projeto teve seu início com a proposta de desenvolver um site utilizando as tecnologias HTML, CSS, JavaScript e Bootstrap, assegurando acessibilidade e uma estruturação eficiente, em conjunto com uma interface visualmente atraente e funcional. Seguindo as instruções fornecidas, foi desenvolvido um site com a concepção de um portfólio digital de fotografia, com o objetivo de apresentar o perfil do fotógrafo e suas fotografias.
+O site foi desenvolvido a partir de uma personalidade fictícia, criada para ilustrar o projeto. O nome “Livia Carvalho Azevedo” e o número de telefone utilizados foram gerados através do site Fake Names Generator, ferramenta utilizada para criar identidades aleatórias e irreais. O e-mail apresentado no site também é fictício.
+Todas as imagens utilizadas foram retiradas do banco de imagens gratuitas Pixabay.
 
 
